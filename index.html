@@ -106,7 +106,7 @@
     <script type="text/javascript" src="js/jquery-1.12.4.min.js"></script>
     <script type="text/javascript" src="js/jquery.address.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="https://maps.google.com/maps/api/js?libraries=places&key=AIzaSyAR5eeFETe-sMigouZtPABzHpyA02MGyjQ"></script>
+    <script type="text/javascript" src="https://maps.google.com/maps/api/js?libraries=places&key=AIzaSyC4WX7q-v3DU7fvX9teThvdlyCjKxdBu-c"></script>
     <script type="text/javascript" src="js/maps_lib.js"></script>
     <script type='text/javascript'>
       //<![CDATA[
@@ -119,11 +119,11 @@
         
         $(function() {
           var myMap = new MapsLib({
-            fusionTableId:      "1rPOAVHoR2LAS3awVjQWD_l2sVn2A1vx25u2zBWL5",
+            fusionTableId:      "1-24deRdUm4bPK250dQBDY48ATWer8YZHRV0Q11g9",
             googleApiKey:       "AIzaSyA2W1ZVqGCNrgLmhRl1xuYEQQK1pBh3Gqw",
-            locationColumn:     "geometry",
-            map_center:         [41.8781136, -87.66677856445312],
-            locationScope:      "chicago"
+            locationColumn:     "Lat",
+            map_center:         [33.06, -87.06],
+            locationScope:      "Alabama"
           });
 
           var autocomplete = new google.maps.places.Autocomplete(document.getElementById('search_address'));
